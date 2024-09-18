@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="34">
         <activity
+            android:name=".activity.OrderDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ManageOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ManageUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UpdateProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ManageProductListActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.ProfileActivity"
             android:exported="false" />
         <activity
@@ -29,7 +44,7 @@
             android:exported="false" />
         <activity
             android:name=".activity.DetailProductActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".activity.RegistrationActivity"
             android:exported="false" />
