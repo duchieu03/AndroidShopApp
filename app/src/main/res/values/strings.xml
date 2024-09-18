@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Shop</string>
+    <string-array name="size_options">
+        <item>All Sizes</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="select_size">Select Size</string>
+</resources>
